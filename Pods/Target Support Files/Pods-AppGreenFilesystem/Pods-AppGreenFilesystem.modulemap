@@ -1,0 +1,6 @@
+framework module Pods_AppGreenFilesystem {
+  umbrella header "Pods-AppGreenFilesystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

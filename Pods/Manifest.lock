@@ -1,0 +1,29 @@
+PODS:
+  - CryptoSwift (1.7.0)
+  - SkeletonView (1.8.2)
+
+DEPENDENCIES:
+  - CryptoSwift (~> 1.7.0)
+  - SkeletonView (from `https://github.com/Juanpe/SkeletonView`, tag `1.8.2`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  SkeletonView:
+    :git: https://github.com/Juanpe/SkeletonView
+    :tag: 1.8.2
+
+CHECKOUT OPTIONS:
+  SkeletonView:
+    :git: https://github.com/Juanpe/SkeletonView
+    :tag: 1.8.2
+
+SPEC CHECKSUMS:
+  CryptoSwift: e71dbe5bbb7a945e365d4b9034dbccf28d033a8f
+  SkeletonView: bb27c39857e5492136f02ee8a3aa78de55d12ecd
+
+PODFILE CHECKSUM: 52cf0cbd1e8cc0341d41edcbc7335e0c3b90957a
+
+COCOAPODS: 1.12.0

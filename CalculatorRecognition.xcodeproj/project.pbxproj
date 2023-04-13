@@ -7,30 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294E4DB629E84D2E00D4DD4D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD129E77C270084967D /* MainViewModel.swift */; };
+		294E4DB729E84D2E00D4DD4D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */; };
+		294E4DB829E84D2E00D4DD4D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE129E77C480084967D /* DataManager.swift */; };
+		294E4DB929E84D2E00D4DD4D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE929E77C620084967D /* DatabaseHelper.swift */; };
+		294E4DBA29E84D2E00D4DD4D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DADE29E77C3C0084967D /* String+Extension.swift */; };
+		294E4DBB29E84D2E00D4DD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB129E77BB00084967D /* AppDelegate.swift */; };
+		294E4DBC29E84D2E00D4DD4D /* DatabaseStorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */; };
+		294E4DBD29E84D2E00D4DD4D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD429E77C270084967D /* MainViewController.swift */; };
+		294E4DBE29E84D2E00D4DD4D /* DatabaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */; };
+		294E4DBF29E84D2E00D4DD4D /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE229E77C480084967D /* Alias.swift */; };
+		294E4DC029E84D2E00D4DD4D /* DatabaseStorageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */; };
+		294E4DC329E84D2E00D4DD4D /* DatabaseStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */; };
+		294E4DC729E84D2E00D4DD4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */; };
+		294E4DC929E84D2E00D4DD4D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DAD329E77C270084967D /* MainViewController.xib */; };
+		294E4DCA29E84D2E00D4DD4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABA29E77BB10084967D /* Assets.xcassets */; };
+		294E4DCB29E84D2E00D4DD4D /* DatabaseStorageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */; };
+		2975014929E84EEF00AE0236 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD129E77C270084967D /* MainViewModel.swift */; };
+		2975014A29E84EEF00AE0236 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */; };
+		2975014B29E84EEF00AE0236 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE129E77C480084967D /* DataManager.swift */; };
+		2975014C29E84EEF00AE0236 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE929E77C620084967D /* DatabaseHelper.swift */; };
+		2975014D29E84EEF00AE0236 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DADE29E77C3C0084967D /* String+Extension.swift */; };
+		2975014E29E84EEF00AE0236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB129E77BB00084967D /* AppDelegate.swift */; };
+		2975014F29E84EEF00AE0236 /* DatabaseStorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */; };
+		2975015029E84EEF00AE0236 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD429E77C270084967D /* MainViewController.swift */; };
+		2975015129E84EEF00AE0236 /* DatabaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */; };
+		2975015229E84EEF00AE0236 /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE229E77C480084967D /* Alias.swift */; };
+		2975015329E84EEF00AE0236 /* DatabaseStorageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */; };
+		2975015629E84EEF00AE0236 /* DatabaseStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */; };
+		2975015929E84EEF00AE0236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */; };
+		2975015B29E84EEF00AE0236 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DAD329E77C270084967D /* MainViewController.xib */; };
+		2975015C29E84EEF00AE0236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABA29E77BB10084967D /* Assets.xcassets */; };
+		2975015D29E84EEF00AE0236 /* DatabaseStorageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */; };
+		2975016529E84F8200AE0236 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD129E77C270084967D /* MainViewModel.swift */; };
+		2975016629E84F8200AE0236 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */; };
+		2975016729E84F8200AE0236 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE129E77C480084967D /* DataManager.swift */; };
+		2975016829E84F8200AE0236 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE929E77C620084967D /* DatabaseHelper.swift */; };
+		2975016929E84F8200AE0236 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DADE29E77C3C0084967D /* String+Extension.swift */; };
+		2975016A29E84F8200AE0236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB129E77BB00084967D /* AppDelegate.swift */; };
+		2975016B29E84F8200AE0236 /* DatabaseStorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */; };
+		2975016C29E84F8200AE0236 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD429E77C270084967D /* MainViewController.swift */; };
+		2975016D29E84F8200AE0236 /* DatabaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */; };
+		2975016E29E84F8200AE0236 /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE229E77C480084967D /* Alias.swift */; };
+		2975016F29E84F8200AE0236 /* DatabaseStorageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */; };
+		2975017229E84F8200AE0236 /* DatabaseStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */; };
+		2975017529E84F8200AE0236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */; };
+		2975017629E84F8200AE0236 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DAD329E77C270084967D /* MainViewController.xib */; };
+		2975017729E84F8200AE0236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABA29E77BB10084967D /* Assets.xcassets */; };
+		2975017829E84F8200AE0236 /* DatabaseStorageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */; };
 		29D2DAB229E77BB00084967D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB129E77BB00084967D /* AppDelegate.swift */; };
-		29D2DAB429E77BB00084967D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB329E77BB00084967D /* SceneDelegate.swift */; };
-		29D2DAB629E77BB00084967D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAB529E77BB00084967D /* ViewController.swift */; };
-		29D2DAB929E77BB00084967D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DAB729E77BB00084967D /* Main.storyboard */; };
 		29D2DABB29E77BB10084967D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABA29E77BB10084967D /* Assets.xcassets */; };
 		29D2DABE29E77BB10084967D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */; };
+		29D2DAD529E77C270084967D /* DatabaseStorageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */; };
+		29D2DAD629E77C270084967D /* DatabaseStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */; };
+		29D2DAD729E77C270084967D /* DatabaseStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */; };
+		29D2DAD829E77C270084967D /* DatabaseStorageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */; };
+		29D2DAD929E77C270084967D /* DatabaseStorageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */; };
+		29D2DADA29E77C270084967D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD129E77C270084967D /* MainViewModel.swift */; };
+		29D2DADB29E77C270084967D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D2DAD329E77C270084967D /* MainViewController.xib */; };
+		29D2DADC29E77C270084967D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAD429E77C270084967D /* MainViewController.swift */; };
+		29D2DADF29E77C3C0084967D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DADE29E77C3C0084967D /* String+Extension.swift */; };
+		29D2DAE329E77C480084967D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE129E77C480084967D /* DataManager.swift */; };
+		29D2DAE429E77C480084967D /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE229E77C480084967D /* Alias.swift */; };
+		29D2DAEF29E77C630084967D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */; };
+		29D2DAF029E77C630084967D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2DAE929E77C620084967D /* DatabaseHelper.swift */; };
+		331C44AE10616452EF688A2C /* Pods_AppGreenCameraRoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22314E341247E1D71B96B5B /* Pods_AppGreenCameraRoll.framework */; };
+		A3069A1B03C29D7282A15EA3 /* Pods_AppGreenFilesystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24787668A5303094A010113E /* Pods_AppGreenFilesystem.framework */; };
+		AC603381BD1A21071D27D8D3 /* Pods_AppRedBuiltInCameraInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46DF936E1E71053DC32EA97 /* Pods_AppRedBuiltInCameraInfo.framework */; };
+		AD5C4F8FA4B08BC9B9C60AB3 /* Pods_AppRedCameraRoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715D81AFBC7014F6341A5C5F /* Pods_AppRedCameraRoll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29D2DAAE29E77BB00084967D /* CalculatorRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E4D8E62B3ED430C7B0473 /* Pods-AppRedBuiltInCameraInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRedBuiltInCameraInfo.release.xcconfig"; path = "Target Support Files/Pods-AppRedBuiltInCameraInfo/Pods-AppRedBuiltInCameraInfo.release.xcconfig"; sourceTree = "<group>"; };
+		24787668A5303094A010113E /* Pods_AppGreenFilesystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppGreenFilesystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294E4DCF29E84D2E00D4DD4D /* AppRedBuiltInCameraInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppRedBuiltInCameraInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975016129E84EEF00AE0236 /* AppGreenCameraRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGreenCameraRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975017C29E84F8200AE0236 /* AppGreenFilesystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGreenFilesystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D2DAAE29E77BB00084967D /* AppRedCameraRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppRedCameraRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D2DAB129E77BB00084967D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29D2DAB329E77BB00084967D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29D2DAB529E77BB00084967D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29D2DAB829E77BB00084967D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29D2DABA29E77BB10084967D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D2DABD29E77BB10084967D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		29D2DABF29E77BB20084967D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseStorageViewModel.swift; sourceTree = "<group>"; };
+		29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatabaseStorageViewController.xib; sourceTree = "<group>"; };
+		29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseStorageViewController.swift; sourceTree = "<group>"; };
+		29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseStorageCollectionViewCell.swift; sourceTree = "<group>"; };
+		29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatabaseStorageCollectionViewCell.xib; sourceTree = "<group>"; };
+		29D2DAD129E77C270084967D /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		29D2DAD329E77C270084967D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		29D2DAD429E77C270084967D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		29D2DADE29E77C3C0084967D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		29D2DAE129E77C480084967D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		29D2DAE229E77C480084967D /* Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
+		29D2DAE829E77C620084967D /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		29D2DAE929E77C620084967D /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		29D2DAEB29E77C620084967D /* AppRedBuiltInCameraInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppRedBuiltInCameraInfo.plist; sourceTree = "<group>"; };
+		29D2DAEC29E77C620084967D /* AppGreenFilesystem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppGreenFilesystem-Info.plist"; sourceTree = "<group>"; };
+		29D2DAED29E77C620084967D /* AppGreenCameraRoll-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppGreenCameraRoll-Info.plist"; sourceTree = "<group>"; };
+		29D2DAEE29E77C620084967D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A562EE180A73E99ADD4AAE9 /* Pods-AppGreenCameraRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGreenCameraRoll.release.xcconfig"; path = "Target Support Files/Pods-AppGreenCameraRoll/Pods-AppGreenCameraRoll.release.xcconfig"; sourceTree = "<group>"; };
+		6246B36F3D5D17C2373A817C /* Pods-AppGreenCameraRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGreenCameraRoll.debug.xcconfig"; path = "Target Support Files/Pods-AppGreenCameraRoll/Pods-AppGreenCameraRoll.debug.xcconfig"; sourceTree = "<group>"; };
+		715D81AFBC7014F6341A5C5F /* Pods_AppRedCameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRedCameraRoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBE7DADBCB0EE5F00CBABF5 /* Pods-AppGreenFilesystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGreenFilesystem.debug.xcconfig"; path = "Target Support Files/Pods-AppGreenFilesystem/Pods-AppGreenFilesystem.debug.xcconfig"; sourceTree = "<group>"; };
+		931A8B27E9C6938030617086 /* Pods-AppRedCameraRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRedCameraRoll.release.xcconfig"; path = "Target Support Files/Pods-AppRedCameraRoll/Pods-AppRedCameraRoll.release.xcconfig"; sourceTree = "<group>"; };
+		A53074C3A7E3C03DABC8317C /* Pods-AppRedCameraRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRedCameraRoll.debug.xcconfig"; path = "Target Support Files/Pods-AppRedCameraRoll/Pods-AppRedCameraRoll.debug.xcconfig"; sourceTree = "<group>"; };
+		A6AE4FA6A70C1539E81BB06A /* Pods-AppRedBuiltInCameraInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRedBuiltInCameraInfo.debug.xcconfig"; path = "Target Support Files/Pods-AppRedBuiltInCameraInfo/Pods-AppRedBuiltInCameraInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE4550727E021633C202DA4 /* Pods-AppGreenFilesystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGreenFilesystem.release.xcconfig"; path = "Target Support Files/Pods-AppGreenFilesystem/Pods-AppGreenFilesystem.release.xcconfig"; sourceTree = "<group>"; };
+		C46DF936E1E71053DC32EA97 /* Pods_AppRedBuiltInCameraInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRedBuiltInCameraInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22314E341247E1D71B96B5B /* Pods_AppGreenCameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppGreenCameraRoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		294E4DC129E84D2E00D4DD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC603381BD1A21071D27D8D3 /* Pods_AppRedBuiltInCameraInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975015429E84EEF00AE0236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331C44AE10616452EF688A2C /* Pods_AppGreenCameraRoll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975017029E84F8200AE0236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3069A1B03C29D7282A15EA3 /* Pods_AppGreenFilesystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29D2DAAB29E77BB00084967D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5C4F8FA4B08BC9B9C60AB3 /* Pods_AppRedCameraRoll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +157,18 @@
 			children = (
 				29D2DAB029E77BB00084967D /* CalculatorRecognition */,
 				29D2DAAF29E77BB00084967D /* Products */,
+				80AE17DAC57A42255B972791 /* Pods */,
+				C95672EAFA41D1743C6C3337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		29D2DAAF29E77BB00084967D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29D2DAAE29E77BB00084967D /* CalculatorRecognition.app */,
+				29D2DAAE29E77BB00084967D /* AppRedCameraRoll.app */,
+				294E4DCF29E84D2E00D4DD4D /* AppRedBuiltInCameraInfo.app */,
+				2975016129E84EEF00AE0236 /* AppGreenCameraRoll.app */,
+				2975017C29E84F8200AE0236 /* AppGreenFilesystem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,35 +176,237 @@
 		29D2DAB029E77BB00084967D /* CalculatorRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				29D2DAE529E77C620084967D /* Resource */,
+				29D2DAE029E77C480084967D /* Utility */,
+				29D2DADD29E77C3C0084967D /* Extension */,
+				29D2DAC529E77C260084967D /* Module */,
 				29D2DAB129E77BB00084967D /* AppDelegate.swift */,
-				29D2DAB329E77BB00084967D /* SceneDelegate.swift */,
-				29D2DAB529E77BB00084967D /* ViewController.swift */,
-				29D2DAB729E77BB00084967D /* Main.storyboard */,
 				29D2DABA29E77BB10084967D /* Assets.xcassets */,
 				29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */,
-				29D2DABF29E77BB20084967D /* Info.plist */,
 			);
 			path = CalculatorRecognition;
+			sourceTree = "<group>";
+		};
+		29D2DAC529E77C260084967D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAC629E77C270084967D /* DatabaseStorage */,
+				29D2DACF29E77C270084967D /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		29D2DAC629E77C270084967D /* DatabaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAC729E77C270084967D /* ViewModel */,
+				29D2DAC929E77C270084967D /* View */,
+			);
+			path = DatabaseStorage;
+			sourceTree = "<group>";
+		};
+		29D2DAC729E77C270084967D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAC829E77C270084967D /* DatabaseStorageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29D2DAC929E77C270084967D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DACA29E77C270084967D /* DatabaseStorageViewController.xib */,
+				29D2DACB29E77C270084967D /* DatabaseStorageViewController.swift */,
+				29D2DACC29E77C270084967D /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29D2DACC29E77C270084967D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DACD29E77C270084967D /* DatabaseStorageCollectionViewCell.swift */,
+				29D2DACE29E77C270084967D /* DatabaseStorageCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		29D2DACF29E77C270084967D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAD029E77C270084967D /* ViewModel */,
+				29D2DAD229E77C270084967D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		29D2DAD029E77C270084967D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAD129E77C270084967D /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29D2DAD229E77C270084967D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAD329E77C270084967D /* MainViewController.xib */,
+				29D2DAD429E77C270084967D /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29D2DADD29E77C3C0084967D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DADE29E77C3C0084967D /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		29D2DAE029E77C480084967D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAE129E77C480084967D /* DataManager.swift */,
+				29D2DAE229E77C480084967D /* Alias.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		29D2DAE529E77C620084967D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAE629E77C620084967D /* Database */,
+				29D2DAEA29E77C620084967D /* Info */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		29D2DAE629E77C620084967D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */,
+				29D2DAE929E77C620084967D /* DatabaseHelper.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		29D2DAEA29E77C620084967D /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DAEB29E77C620084967D /* AppRedBuiltInCameraInfo.plist */,
+				29D2DAEC29E77C620084967D /* AppGreenFilesystem-Info.plist */,
+				29D2DAED29E77C620084967D /* AppGreenCameraRoll-Info.plist */,
+				29D2DAEE29E77C620084967D /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		80AE17DAC57A42255B972791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6246B36F3D5D17C2373A817C /* Pods-AppGreenCameraRoll.debug.xcconfig */,
+				3A562EE180A73E99ADD4AAE9 /* Pods-AppGreenCameraRoll.release.xcconfig */,
+				7EBE7DADBCB0EE5F00CBABF5 /* Pods-AppGreenFilesystem.debug.xcconfig */,
+				ACE4550727E021633C202DA4 /* Pods-AppGreenFilesystem.release.xcconfig */,
+				A6AE4FA6A70C1539E81BB06A /* Pods-AppRedBuiltInCameraInfo.debug.xcconfig */,
+				214E4D8E62B3ED430C7B0473 /* Pods-AppRedBuiltInCameraInfo.release.xcconfig */,
+				A53074C3A7E3C03DABC8317C /* Pods-AppRedCameraRoll.debug.xcconfig */,
+				931A8B27E9C6938030617086 /* Pods-AppRedCameraRoll.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C95672EAFA41D1743C6C3337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22314E341247E1D71B96B5B /* Pods_AppGreenCameraRoll.framework */,
+				24787668A5303094A010113E /* Pods_AppGreenFilesystem.framework */,
+				C46DF936E1E71053DC32EA97 /* Pods_AppRedBuiltInCameraInfo.framework */,
+				715D81AFBC7014F6341A5C5F /* Pods_AppRedCameraRoll.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29D2DAAD29E77BB00084967D /* CalculatorRecognition */ = {
+		294E4DB429E84D2E00D4DD4D /* AppRedBuiltInCameraInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29D2DAC229E77BB20084967D /* Build configuration list for PBXNativeTarget "CalculatorRecognition" */;
+			buildConfigurationList = 294E4DCC29E84D2E00D4DD4D /* Build configuration list for PBXNativeTarget "AppRedBuiltInCameraInfo" */;
 			buildPhases = (
-				29D2DAAA29E77BB00084967D /* Sources */,
-				29D2DAAB29E77BB00084967D /* Frameworks */,
-				29D2DAAC29E77BB00084967D /* Resources */,
+				4B8775094D54B556E12A0738 /* [CP] Check Pods Manifest.lock */,
+				294E4DB529E84D2E00D4DD4D /* Sources */,
+				294E4DC129E84D2E00D4DD4D /* Frameworks */,
+				294E4DC229E84D2E00D4DD4D /* Resources */,
+				2FFF711DF1F0D6798A9216E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CalculatorRecognition;
+			name = AppRedBuiltInCameraInfo;
 			productName = CalculatorRecognition;
-			productReference = 29D2DAAE29E77BB00084967D /* CalculatorRecognition.app */;
+			productReference = 294E4DCF29E84D2E00D4DD4D /* AppRedBuiltInCameraInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2975014729E84EEF00AE0236 /* AppGreenCameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975015E29E84EEF00AE0236 /* Build configuration list for PBXNativeTarget "AppGreenCameraRoll" */;
+			buildPhases = (
+				5D1A62D1371CC9F27E8F08A3 /* [CP] Check Pods Manifest.lock */,
+				2975014829E84EEF00AE0236 /* Sources */,
+				2975015429E84EEF00AE0236 /* Frameworks */,
+				2975015529E84EEF00AE0236 /* Resources */,
+				E9473B06C4969970612A33AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppGreenCameraRoll;
+			productName = CalculatorRecognition;
+			productReference = 2975016129E84EEF00AE0236 /* AppGreenCameraRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2975016329E84F8200AE0236 /* AppGreenFilesystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975017929E84F8200AE0236 /* Build configuration list for PBXNativeTarget "AppGreenFilesystem" */;
+			buildPhases = (
+				009318CAEBADD2259F2189DA /* [CP] Check Pods Manifest.lock */,
+				2975016429E84F8200AE0236 /* Sources */,
+				2975017029E84F8200AE0236 /* Frameworks */,
+				2975017129E84F8200AE0236 /* Resources */,
+				BB8B79BCBA66CC2E42FEAFE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppGreenFilesystem;
+			productName = CalculatorRecognition;
+			productReference = 2975017C29E84F8200AE0236 /* AppGreenFilesystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29D2DAAD29E77BB00084967D /* AppRedCameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D2DAC229E77BB20084967D /* Build configuration list for PBXNativeTarget "AppRedCameraRoll" */;
+			buildPhases = (
+				DC70B1CF87DB52AF9E03B416 /* [CP] Check Pods Manifest.lock */,
+				29D2DAAA29E77BB00084967D /* Sources */,
+				29D2DAAB29E77BB00084967D /* Frameworks */,
+				29D2DAAC29E77BB00084967D /* Resources */,
+				C8B70448CAB8A285E92708FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppRedCameraRoll;
+			productName = CalculatorRecognition;
+			productReference = 29D2DAAE29E77BB00084967D /* AppRedCameraRoll.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,46 +437,300 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29D2DAAD29E77BB00084967D /* CalculatorRecognition */,
+				29D2DAAD29E77BB00084967D /* AppRedCameraRoll */,
+				294E4DB429E84D2E00D4DD4D /* AppRedBuiltInCameraInfo */,
+				2975014729E84EEF00AE0236 /* AppGreenCameraRoll */,
+				2975016329E84F8200AE0236 /* AppGreenFilesystem */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		294E4DC229E84D2E00D4DD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E4DC329E84D2E00D4DD4D /* DatabaseStorageViewController.xib in Resources */,
+				294E4DC729E84D2E00D4DD4D /* LaunchScreen.storyboard in Resources */,
+				294E4DC929E84D2E00D4DD4D /* MainViewController.xib in Resources */,
+				294E4DCA29E84D2E00D4DD4D /* Assets.xcassets in Resources */,
+				294E4DCB29E84D2E00D4DD4D /* DatabaseStorageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975015529E84EEF00AE0236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975015629E84EEF00AE0236 /* DatabaseStorageViewController.xib in Resources */,
+				2975015929E84EEF00AE0236 /* LaunchScreen.storyboard in Resources */,
+				2975015B29E84EEF00AE0236 /* MainViewController.xib in Resources */,
+				2975015C29E84EEF00AE0236 /* Assets.xcassets in Resources */,
+				2975015D29E84EEF00AE0236 /* DatabaseStorageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975017129E84F8200AE0236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975017229E84F8200AE0236 /* DatabaseStorageViewController.xib in Resources */,
+				2975017529E84F8200AE0236 /* LaunchScreen.storyboard in Resources */,
+				2975017629E84F8200AE0236 /* MainViewController.xib in Resources */,
+				2975017729E84F8200AE0236 /* Assets.xcassets in Resources */,
+				2975017829E84F8200AE0236 /* DatabaseStorageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29D2DAAC29E77BB00084967D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D2DAD629E77C270084967D /* DatabaseStorageViewController.xib in Resources */,
 				29D2DABE29E77BB10084967D /* LaunchScreen.storyboard in Resources */,
+				29D2DADB29E77C270084967D /* MainViewController.xib in Resources */,
 				29D2DABB29E77BB10084967D /* Assets.xcassets in Resources */,
-				29D2DAB929E77BB00084967D /* Main.storyboard in Resources */,
+				29D2DAD929E77C270084967D /* DatabaseStorageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009318CAEBADD2259F2189DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppGreenFilesystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FFF711DF1F0D6798A9216E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppRedBuiltInCameraInfo/Pods-AppRedBuiltInCameraInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppRedBuiltInCameraInfo/Pods-AppRedBuiltInCameraInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppRedBuiltInCameraInfo/Pods-AppRedBuiltInCameraInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8775094D54B556E12A0738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppRedBuiltInCameraInfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1A62D1371CC9F27E8F08A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppGreenCameraRoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8B79BCBA66CC2E42FEAFE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGreenFilesystem/Pods-AppGreenFilesystem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGreenFilesystem/Pods-AppGreenFilesystem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppGreenFilesystem/Pods-AppGreenFilesystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B70448CAB8A285E92708FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppRedCameraRoll/Pods-AppRedCameraRoll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppRedCameraRoll/Pods-AppRedCameraRoll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppRedCameraRoll/Pods-AppRedCameraRoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC70B1CF87DB52AF9E03B416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppRedCameraRoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9473B06C4969970612A33AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGreenCameraRoll/Pods-AppGreenCameraRoll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGreenCameraRoll/Pods-AppGreenCameraRoll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppGreenCameraRoll/Pods-AppGreenCameraRoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		294E4DB529E84D2E00D4DD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E4DB629E84D2E00D4DD4D /* MainViewModel.swift in Sources */,
+				294E4DB729E84D2E00D4DD4D /* DataModel.xcdatamodeld in Sources */,
+				294E4DB829E84D2E00D4DD4D /* DataManager.swift in Sources */,
+				294E4DB929E84D2E00D4DD4D /* DatabaseHelper.swift in Sources */,
+				294E4DBA29E84D2E00D4DD4D /* String+Extension.swift in Sources */,
+				294E4DBB29E84D2E00D4DD4D /* AppDelegate.swift in Sources */,
+				294E4DBC29E84D2E00D4DD4D /* DatabaseStorageViewModel.swift in Sources */,
+				294E4DBD29E84D2E00D4DD4D /* MainViewController.swift in Sources */,
+				294E4DBE29E84D2E00D4DD4D /* DatabaseStorageViewController.swift in Sources */,
+				294E4DBF29E84D2E00D4DD4D /* Alias.swift in Sources */,
+				294E4DC029E84D2E00D4DD4D /* DatabaseStorageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975014829E84EEF00AE0236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975014929E84EEF00AE0236 /* MainViewModel.swift in Sources */,
+				2975014A29E84EEF00AE0236 /* DataModel.xcdatamodeld in Sources */,
+				2975014B29E84EEF00AE0236 /* DataManager.swift in Sources */,
+				2975014C29E84EEF00AE0236 /* DatabaseHelper.swift in Sources */,
+				2975014D29E84EEF00AE0236 /* String+Extension.swift in Sources */,
+				2975014E29E84EEF00AE0236 /* AppDelegate.swift in Sources */,
+				2975014F29E84EEF00AE0236 /* DatabaseStorageViewModel.swift in Sources */,
+				2975015029E84EEF00AE0236 /* MainViewController.swift in Sources */,
+				2975015129E84EEF00AE0236 /* DatabaseStorageViewController.swift in Sources */,
+				2975015229E84EEF00AE0236 /* Alias.swift in Sources */,
+				2975015329E84EEF00AE0236 /* DatabaseStorageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2975016429E84F8200AE0236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975016529E84F8200AE0236 /* MainViewModel.swift in Sources */,
+				2975016629E84F8200AE0236 /* DataModel.xcdatamodeld in Sources */,
+				2975016729E84F8200AE0236 /* DataManager.swift in Sources */,
+				2975016829E84F8200AE0236 /* DatabaseHelper.swift in Sources */,
+				2975016929E84F8200AE0236 /* String+Extension.swift in Sources */,
+				2975016A29E84F8200AE0236 /* AppDelegate.swift in Sources */,
+				2975016B29E84F8200AE0236 /* DatabaseStorageViewModel.swift in Sources */,
+				2975016C29E84F8200AE0236 /* MainViewController.swift in Sources */,
+				2975016D29E84F8200AE0236 /* DatabaseStorageViewController.swift in Sources */,
+				2975016E29E84F8200AE0236 /* Alias.swift in Sources */,
+				2975016F29E84F8200AE0236 /* DatabaseStorageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29D2DAAA29E77BB00084967D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D2DAB629E77BB00084967D /* ViewController.swift in Sources */,
+				29D2DADA29E77C270084967D /* MainViewModel.swift in Sources */,
+				29D2DAEF29E77C630084967D /* DataModel.xcdatamodeld in Sources */,
+				29D2DAE329E77C480084967D /* DataManager.swift in Sources */,
+				29D2DAF029E77C630084967D /* DatabaseHelper.swift in Sources */,
+				29D2DADF29E77C3C0084967D /* String+Extension.swift in Sources */,
 				29D2DAB229E77BB00084967D /* AppDelegate.swift in Sources */,
-				29D2DAB429E77BB00084967D /* SceneDelegate.swift in Sources */,
+				29D2DAD529E77C270084967D /* DatabaseStorageViewModel.swift in Sources */,
+				29D2DADC29E77C270084967D /* MainViewController.swift in Sources */,
+				29D2DAD729E77C270084967D /* DatabaseStorageViewController.swift in Sources */,
+				29D2DAE429E77C480084967D /* Alias.swift in Sources */,
+				29D2DAD829E77C270084967D /* DatabaseStorageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29D2DAB729E77BB00084967D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D2DAB829E77BB00084967D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29D2DABC29E77BB10084967D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +742,177 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		294E4DCD29E84D2E00D4DD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AE4FA6A70C1539E81BB06A /* Pods-AppRedBuiltInCameraInfo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorRecognition/Resource/Info/AppRedBuiltInCameraInfo.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = AppRedBuiltInCamera;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		294E4DCE29E84D2E00D4DD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214E4D8E62B3ED430C7B0473 /* Pods-AppRedBuiltInCameraInfo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorRecognition/Resource/Info/AppRedBuiltInCameraInfo.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2975015F29E84EEF00AE0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6246B36F3D5D17C2373A817C /* Pods-AppGreenCameraRoll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalculatorRecognition/Resource/Info/AppGreenCamaraRoll-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = AppGreenCameraRoll;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2975016029E84EEF00AE0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A562EE180A73E99ADD4AAE9 /* Pods-AppGreenCameraRoll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalculatorRecognition/Resource/Info/AppGreenCamaraRoll-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2975017A29E84F8200AE0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE7DADBCB0EE5F00CBABF5 /* Pods-AppGreenFilesystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalculatorRecognition/Resource/Info/AppGreenFilesystem-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = AppGreenFilesystem;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2975017B29E84F8200AE0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE4550727E021633C202DA4 /* Pods-AppGreenFilesystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalculatorRecognition/Resource/Info/AppGreenFilesystem-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		29D2DAC029E77BB20084967D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,16 +1029,17 @@
 		};
 		29D2DAC329E77BB20084967D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53074C3A7E3C03DABC8317C /* Pods-AppRedCameraRoll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalculatorRecognition/Info.plist;
+				INFOPLIST_FILE = CalculatorRecognition/Resource/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,6 +1049,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.CalculatorRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = AppRedCameraRoll;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,16 +1058,17 @@
 		};
 		29D2DAC429E77BB20084967D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931A8B27E9C6938030617086 /* Pods-AppRedCameraRoll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalculatorRecognition/Info.plist;
+				INFOPLIST_FILE = CalculatorRecognition/Resource/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +1087,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		294E4DCC29E84D2E00D4DD4D /* Build configuration list for PBXNativeTarget "AppRedBuiltInCameraInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294E4DCD29E84D2E00D4DD4D /* Debug */,
+				294E4DCE29E84D2E00D4DD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975015E29E84EEF00AE0236 /* Build configuration list for PBXNativeTarget "AppGreenCameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975015F29E84EEF00AE0236 /* Debug */,
+				2975016029E84EEF00AE0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975017929E84F8200AE0236 /* Build configuration list for PBXNativeTarget "AppGreenFilesystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975017A29E84F8200AE0236 /* Debug */,
+				2975017B29E84F8200AE0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		29D2DAA929E77BB00084967D /* Build configuration list for PBXProject "CalculatorRecognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -346,7 +1123,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29D2DAC229E77BB20084967D /* Build configuration list for PBXNativeTarget "CalculatorRecognition" */ = {
+		29D2DAC229E77BB20084967D /* Build configuration list for PBXNativeTarget "AppRedCameraRoll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29D2DAC329E77BB20084967D /* Debug */,
@@ -356,6 +1133,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29D2DAE729E77C620084967D /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29D2DAE829E77C620084967D /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 29D2DAE829E77C620084967D /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29D2DAA629E77BB00084967D /* Project object */;
 }
